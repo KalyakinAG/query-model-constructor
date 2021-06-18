@@ -8,8 +8,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ТекстЗапроса</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.ТекстЗапроса</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ТекстЗапросаРасширеннаяПодсказка</name>
@@ -88,8 +90,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.ТекстМодели</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.ТекстМодели</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ТекстМоделиРасширеннаяПодсказка</name>
