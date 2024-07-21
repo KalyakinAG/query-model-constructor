@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00f4e22d-6631-4297-a746-1da2c51237ac">
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7000336e-7298-4ab5-bbea-5a17a89db1e8">
   <producedTypes>
     <objectType typeId="470c42d0-d598-4813-a203-0a368ab4258c" valueTypeId="f7c5ce27-b11d-4d05-97c5-271c6f8f1008"/>
   </producedTypes>
@@ -10,7 +10,7 @@
   </synonym>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="64693d3c-3936-46cd-9fd8-ece6f4949528"/>
   <defaultForm>ExternalDataProcessor.КонструкторМоделиЗапроса.Form.Форма</defaultForm>
-  <attributes uuid="ad5a28e8-ccd0-4cc7-a643-5fa119fb1f71">
+  <attributes uuid="02999a4b-52b7-4bbb-8a69-db69376d3ae7">
     <name>ТекстЗапроса</name>
     <synonym>
       <key>ru</key>
@@ -22,7 +22,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="0278871b-d354-431f-bcc4-6a3d3c587dbe">
+  <attributes uuid="5872738a-aa79-4c0f-a87a-620f79408b14">
     <name>ТекстМодели</name>
     <synonym>
       <key>ru</key>
@@ -34,7 +34,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <forms uuid="ae87b204-7773-4f71-8d08-a9677676c333">
+  <forms uuid="a0ba817c-c11e-4182-b796-c263e57d7167">
     <name>Форма</name>
     <synonym>
       <key>ru</key>
