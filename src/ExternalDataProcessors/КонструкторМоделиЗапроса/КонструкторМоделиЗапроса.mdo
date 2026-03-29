@@ -1,35 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7000336e-7298-4ab5-bbea-5a17a89db1e8">
   <producedTypes>
-    <objectType typeId="470c42d0-d598-4813-a203-0a368ab4258c" valueTypeId="f7c5ce27-b11d-4d05-97c5-271c6f8f1008"/>
+    <objectType typeId="07a1ad7b-36ea-4da5-a159-0ef22a85e2b2" valueTypeId="b023457d-f7e1-4a43-a8e6-283b10dc91b4"/>
   </producedTypes>
   <name>КонструкторМоделиЗапроса</name>
   <synonym>
     <key>ru</key>
     <value>Конструктор модели запроса</value>
   </synonym>
-  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="64693d3c-3936-46cd-9fd8-ece6f4949528"/>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="b8eaab7d-6035-46c2-b82f-a3f4589d1dbf"/>
   <defaultForm>ExternalDataProcessor.КонструкторМоделиЗапроса.Form.Форма</defaultForm>
   <attributes uuid="02999a4b-52b7-4bbb-8a69-db69376d3ae7">
+    <name>ИсходныйТекстЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходный текст запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5872738a-aa79-4c0f-a87a-620f79408b14">
+    <name>Код1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код1 С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ffcd0c74-f3aa-48a2-8ba5-d39491a4904a">
     <name>ТекстЗапроса</name>
     <synonym>
       <key>ru</key>
       <value>Текст запроса</value>
     </synonym>
     <type>
-      <types>TextDocument</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="5872738a-aa79-4c0f-a87a-620f79408b14">
-    <name>ТекстМодели</name>
-    <synonym>
-      <key>ru</key>
-      <value>Текст модели</value>
-    </synonym>
-    <type>
-      <types>TextDocument</types>
+      <types>String</types>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
